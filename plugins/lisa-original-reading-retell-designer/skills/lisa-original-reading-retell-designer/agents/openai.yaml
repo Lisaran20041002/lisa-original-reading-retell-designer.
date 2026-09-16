@@ -1,0 +1,8 @@
+interface:
+  display_name: "Lisa Original Reading · Retell Designer"
+  short_description: "Create illustration-first retell worksheets"
+  brand_color: "#D88967"
+  default_prompt: "Use $lisa-original-reading-retell-designer to generate source-grounded characters and story illustrations first, then build them into a visually rich scaffolded retell worksheet."
+policy:
+  allow_implicit_invocation: true
+
