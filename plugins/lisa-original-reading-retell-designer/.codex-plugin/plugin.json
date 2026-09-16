@@ -1,17 +1,20 @@
 {
   "name": "lisa-original-reading-retell-designer",
-  "version": "1.0.0",
-  "description": "Create text-grounded retell worksheets with progressive teaching scaffolds and handmade storybook visual direction.",
-  "author": { "name": "Lisa" },
+  "version": "1.1.0",
+  "description": "Create illustration-first retell worksheets by generating source-grounded characters, events, props, and locations before worksheet assembly.",
+  "author": { "name": "Lisaran20041002" },
   "license": "MIT",
   "keywords": ["reading", "retell", "worksheet", "teaching-design", "storybook"],
-  "skills": "./",
+  "skills": "./skills",
   "interface": {
     "displayName": "Lisa Original Reading · Retell Designer",
-    "shortDescription": "Create text-grounded retell worksheets",
-    "longDescription": "A teaching and visual design skill for turning English reading materials into scaffolded retell worksheets with locked characters, scenes, and dual QA.",
+    "developerName": "Lisaran20041002",
+    "shortDescription": "Create illustration-first retell worksheets",
+    "longDescription": "A visual-first teaching design skill that derives locked characters and story facts from reading materials, generates and checks the complete illustration system first, then builds visually rich scaffolded retell worksheets with teaching and visual QA.",
+    "capabilities": ["Generate source-grounded illustration systems", "Create visually rich scaffolded retell worksheets", "Run teaching and visual QA"],
     "category": "Education",
     "brandColor": "#D88967",
-    "defaultPrompt": ["Create a scaffolded retell worksheet from this reading lesson.", "Extract Character Lock and Scene Lock before planning illustrations."]
+    "defaultPrompt": ["Generate source-grounded characters and story illustrations first, then build them into a visually rich scaffolded retell worksheet.", "Do not start worksheet assembly until the complete visual asset family passes Visual QA."]
   }
 }
+
