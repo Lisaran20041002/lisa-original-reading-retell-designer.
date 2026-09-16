@@ -1,0 +1,7 @@
+interface:
+  display_name: "Lisa Original Reading · Retell Designer"
+  short_description: "Create text-grounded retell worksheets"
+  brand_color: "#D88967"
+  default_prompt: "Use $lisa-original-reading-retell-designer to turn this reading lesson into a scaffolded retell worksheet with locked characters and scenes."
+policy:
+  allow_implicit_invocation: true
