@@ -1,0 +1,17 @@
+{
+  "name": "lisa-original-reading-retell-designer",
+  "version": "1.0.0",
+  "description": "Create text-grounded retell worksheets with progressive teaching scaffolds and handmade storybook visual direction.",
+  "author": { "name": "Lisa" },
+  "license": "MIT",
+  "keywords": ["reading", "retell", "worksheet", "teaching-design", "storybook"],
+  "skills": "./",
+  "interface": {
+    "displayName": "Lisa Original Reading · Retell Designer",
+    "shortDescription": "Create text-grounded retell worksheets",
+    "longDescription": "A teaching and visual design skill for turning English reading materials into scaffolded retell worksheets with locked characters, scenes, and dual QA.",
+    "category": "Education",
+    "brandColor": "#D88967",
+    "defaultPrompt": ["Create a scaffolded retell worksheet from this reading lesson.", "Extract Character Lock and Scene Lock before planning illustrations."]
+  }
+}
